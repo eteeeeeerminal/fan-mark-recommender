@@ -8,6 +8,7 @@ requests = "*"
 emoji = "*"
 beautifulsoup4 = "*"
 twitter = "*"
+pytest = "*"
 
 [dev-packages]
 

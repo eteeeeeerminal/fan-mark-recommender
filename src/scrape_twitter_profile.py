@@ -47,5 +47,5 @@ for i in range(len_vdatas):
         save_vdatas(SAVE_PATH, vdatas)
     time.sleep(3)
 
-save(vdatas)
+save_vdatas(vdatas)
 print(f"got {len(vdatas)} vdats")

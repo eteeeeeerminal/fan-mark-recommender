@@ -9,6 +9,7 @@ emoji = "*"
 beautifulsoup4 = "*"
 twitter = "*"
 pytest = "*"
+python-dotenv = "*"
 
 [dev-packages]
 

@@ -166,7 +166,10 @@ async def extract_vtuber_profile(file_path:str) -> dict:
         return None
     twitter_id = twitter_id.get_text(strip=True)
 
-    ret = VtuberDataclass(name, twitter_id, "", fan_marks, fan_mark_names)
+    ret = VtuberDataclass(
+        name, None, twitter_id, "", "", "",
+        fan_marks, fan_mark_names
+    )
     return asdict(ret)
 
 async def extract_vtuber_profiles():

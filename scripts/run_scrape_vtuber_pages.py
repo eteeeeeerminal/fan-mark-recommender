@@ -1,0 +1,3 @@
+import append_src
+from src.scrape_fan_mark import scrape_vtuber_pages
+scrape_vtuber_pages()

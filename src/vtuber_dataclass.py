@@ -11,6 +11,8 @@ class VtuberDataclass:
     twitter_profile:str
     fan_marks:list[str]
     fan_mark_names:list[str]
+    fan_mark_indices:list[int] = dataclasses.field(default_factory=list[int])
+    doc_vec:list[float] = dataclasses.field(default_factory=list[float])
 
 def load_vdatas(path:str) -> list[VtuberDataclass]:
     with open(path, 'r', encoding="utf-8") as f:

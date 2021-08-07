@@ -20,4 +20,6 @@ def load_emoji_dic() -> dict[str, int]:
     return {e:i+1 for i, e in enumerate(emoji_list)}
 
 def emojis_to_ids(emoji_dic:dict[str, int], emojis:list[str]) -> list[int]:
-    return [emoji_dic[e] for e in emojis]
+    ids = [emoji_dic[e] for e in emojis]
+    ids = ids + [0] * (3 - len(ids))
+    return ids

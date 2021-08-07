@@ -11,6 +11,7 @@ twitter = "*"
 pytest = "*"
 python-dotenv = "*"
 ginza = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

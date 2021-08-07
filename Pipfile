@@ -12,6 +12,8 @@ pytest = "*"
 python-dotenv = "*"
 ginza = "*"
 scikit-learn = "*"
+gensim = "*"
+sentencepiece = "*"
 
 [dev-packages]
 
